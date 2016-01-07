@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">opac</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_activity_reservation">ReservationActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_books">BooksActivity</string>
+    <string name="title_activity_starting">StartingActivity</string>
+    <string name="title_activity_books_display">BooksDisplayActivity</string>
+    <string name="title_activity_reservation_display">ReservationDisplayActivity</string>
+    <string name="reserve">Login to Reserve</string>
+    <string name="note">The Reserved book must be withdrawn from library within 2hrs from reservation</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_latest">LatestActivity</string>
+
+</resources>

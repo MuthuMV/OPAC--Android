@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.opac"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="ABOLP"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.opac.MainActivity"
+            android:label="Login" >
+        </activity>
+        <activity
+            android:name="com.example.opac.HomeActivity"
+            android:label="Home" >
+        </activity>
+        <activity
+            android:name="com.example.opac.ReservationActivity"
+            android:label="Reservation" >
+        </activity>
+        <activity
+            android:name="com.example.opac.NotificationActivity"
+            android:label="Notification" >
+        </activity>
+        <activity
+            android:name="com.example.opac.BooksActivity"
+            android:label="Books"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.example.opac.StartingActivity"
+            android:label="ABOLP" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.opac.BooksDisplayActivity"
+            android:label="Books"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.example.opac.ReservationDisplayActivity"
+            android:label="Reservation" >
+        </activity>
+        <activity
+            android:name="com.example.opac.ProfileActivity"
+            android:label="Profile" >
+        </activity>
+        <activity
+            android:name="com.example.opac.LatestActivity"
+            android:label="Latest Books" >
+        </activity>
+    </application>
+
+</manifest>

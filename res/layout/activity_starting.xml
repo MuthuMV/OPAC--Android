@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartingActivity" >
+
+    <ImageButton
+        android:id="@+id/starting_book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/book_icon" 
+        android:text="Books" />
+
+    <ImageButton
+        android:id="@+id/starting_latest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_above="@+id/starting_login"
+        android:layout_alignTop="@+id/starting_book"
+        android:layout_alignBottom="@+id/starting_book"
+        android:layout_toRightOf="@+id/starting_book"
+        android:scaleType="fitXY"
+        android:src="@drawable/latest"
+        android:text="Latest" />
+
+    <ImageButton
+        android:id="@+id/starting_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/starting_book"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:scaleType="fitEnd"
+        android:src="@drawable/login_icon"
+        android:text="Login" />
+
+</RelativeLayout>
